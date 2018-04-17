@@ -4,9 +4,9 @@ Ligth library to collect data from mpx5010dp pressure module
 
 MPX data PIN need to be connected to analog input of Arduino.
 Library configure ADC to **Free Running Mode**.
-#### So, library use ISR(ADC_vect) interraption to collect data set.
+#### So, library use ISR(ADC_vect) interruption to collect data set.
 
-It is necessary to use method check() before getting Press_mmHg.
+It is necessary to use method **check()** to perform calculation before getting Press_mmHg.
 
 Feel free to see the code and uncomment Press_kPa.
 
