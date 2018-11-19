@@ -1,6 +1,10 @@
 # MPX5010x
 
-Ligth library to collect data from mpx5010dp pressure module 
+Light library to collect data from mpx5010dp pressure module 
+
+# ReadOnly now!
+use https://github.com/Tomat7/ADCmulti 
+or  https://github.com/Tomat7/ADCmultiplexer
 
 MPX data PIN need to be connected to analog input of Arduino.
 Library configure ADC to **Free Running Mode**.
